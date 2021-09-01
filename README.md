@@ -5,10 +5,10 @@
  * [Xcode 12.0](https://developer.apple.com/xcode) or later.
 
  ## Installation
- - Add the following dependency to your project's `Package.swift`, make sure to replace `"x.x.x"` with the appropriate version number.
+ - Add the following dependency to your project's `Package.swift`.
 
  ```swift
  dependencies: [
-     .package(url: "https://github.com/YAtechnologies/WebRTC-SP.git", from: "x.x.x")
+     .package(url: "https://github.com/YAtechnologies/WebRTC-SP.git", .upToNextMajor(from: "89.0.843830"))
  ]
  ```
